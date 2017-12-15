@@ -19,24 +19,24 @@ const orgPrompt = {
 const generateProjectFiles = {
   type: 'addMany',
   destination: process.cwd(),
-  base: 'templates/project',
+  base: 'src/templates/project',
   templateFiles: [
-    'templates/project/license',
-    'templates/project/**/.*',
-    'templates/project/**/*',
+    'src/templates/project/license',
+    'src/templates/project/**/.*',
+    'src/templates/project/**/*',
   ],
 };
 
 const generateCircleConfig = {
   type: 'add',
   path: `${process.cwd()}/.circleci/config.yml`,
-  templateFile: 'templates/circleci/config.yml',
+  templateFile: 'src/templates/circleci/config.yml',
 };
 
 const generateTravisConfig = {
   type: 'add',
   path: `${process.cwd()}/.travis.yml`,
-  templateFile: 'templates/travisci/config.yml',
+  templateFile: 'src/templates/travisci/config.yml',
 };
 
 module.exports = {
