@@ -1,0 +1,26 @@
+{
+  "name": "@ht2-labs/plop-generators",
+  "version": "1.0.0",
+  "description": "A package for scaffolding code for HT2 Labs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HT2-Labs/plop-generators"
+  },
+  "author": "ht2-labs",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "sh ./test.sh",
+    "semantic-release": "ht2-release-public-circleci-lib"
+  },
+  "bin": {
+    "ht2-plop": "./node_modules/plop/src/plop.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@ht2-labs/semantic-release": "1.0.5",
+    "plop": "1.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
