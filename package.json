@@ -13,10 +13,12 @@
     "semantic-release": "ht2-release-public-circleci-lib"
   },
   "bin": {
-    "ht2-plop": "./plop.sh"
+    "ht2-plop": "./src/index.js"
   },
   "dependencies": {
     "@ht2-labs/semantic-release": "1.0.9",
+    "chalk": "^2.3.0",
+    "node-plop": "^0.9.0",
     "plop": "1.9.0"
   },
   "devDependencies": {},
