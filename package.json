@@ -16,7 +16,7 @@
     "ht2-plop": "./src/index.js"
   },
   "dependencies": {
-    "@ht2-labs/semantic-release": "1.0.14",
+    "@ht2-labs/semantic-release": "1.0.15",
     "chalk": "2.3.0",
     "node-plop": "0.9.0"
   },
