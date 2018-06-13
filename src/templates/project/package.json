@@ -29,7 +29,7 @@
     "@ht2-labs/typescript-project": "1.0.19",
     "@ht2-labs/semantic-release": "1.0.42",
     "@types/mocha": "5.2.2",
-    "jscpd": "0.6.18",
+    "jscpd": "0.6.19",
     "mocha": "5.2.0",
     "nyc": "11.9.0",
     "rimraf": "2.6.2"
