@@ -26,7 +26,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@ht2-labs/typescript-project": "1.0.27",
+    "@ht2-labs/typescript-project": "1.0.28",
     "@ht2-labs/semantic-release": "1.1.22",
     "@types/mocha": "5.2.5",
     "jscpd": "0.6.23",
