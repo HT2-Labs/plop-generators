@@ -16,7 +16,7 @@
     "ht2-plop": "./src/index.js"
   },
   "dependencies": {
-    "chalk": "2.4.2",
+    "chalk": "3.0.0",
     "node-plop": "0.25.0"
   },
   "devDependencies": {
