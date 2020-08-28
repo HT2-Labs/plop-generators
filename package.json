@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "chalk": "2.4.2",
-    "node-plop": "0.26.0"
+    "node-plop": "0.26.2"
   },
   "devDependencies": {
     "@ht2-labs/semantic-release": "1.1.110"
