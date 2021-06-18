@@ -30,7 +30,7 @@
     "@ht2-labs/semantic-release": "1.1.110",
     "@types/mocha": "5.2.7",
     "jscpd": "0.6.25",
-    "mocha": "5.2.0",
+    "mocha": "9.0.1",
     "nyc": "11.9.0",
     "rimraf": "2.7.1"
   },
